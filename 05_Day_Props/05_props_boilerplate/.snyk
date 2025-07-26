@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-scripts > babel-eslint > @babel/traverse > lodash:
+        patched: '2025-07-26T15:02:41.860Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-eslint > @babel/traverse > lodash
+    - react-scripts > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-07-26T15:02:41.860Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-eslint > @babel/traverse > @babel/generator >
+          lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-07-26T15:02:41.860Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-jest > @jest/transform > @babel/core > lodash
+    - react-scripts > eslint-plugin-testing-library > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2025-07-26T15:02:41.860Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > eslint-plugin-testing-library >
+          @typescript-eslint/experimental-utils >
+          @typescript-eslint/typescript-estree > lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2025-07-26T15:02:41.860Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-jest > @jest/transform > @babel/core >
+          @babel/helper-module-transforms > lodash
